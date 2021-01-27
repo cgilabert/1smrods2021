@@ -1,6 +1,33 @@
 *{
-
+    background-color: rgb(193, 31, 51);
+    color: rgb(220, 220, 220);
+    margin-left: 5px;
 }
-h1 {
-    color: rgb(95, 0, 0);
+
+.portada{
+    margin: auto;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 3px 1px  rgb(50, 50, 50);
+    margin-bottom: 2px;
+}
+
+h2{
+    text-shadow: 2px 2px rgb(50, 50, 50);
+    margin-bottom: 4px;
+}
+
+ol{
+    margin: 2px 0px 2px 0px;
+}
+
+li{
+    margin-left: 0px;
+}
+
+ul{
+    margin: 2px 0px 2px 0px;
 }
