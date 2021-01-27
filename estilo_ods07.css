@@ -1,0 +1,28 @@
+body {
+    padding-left: 12em;
+    font-family: Arial;
+    color: #fdfdfc;
+    background-color: #b69505; 
+}
+
+h1 {
+  font-family: Arial; 
+  text-align: center;
+}
+
+
+img { 
+margin: auto;
+float: center;
+}
+
+p{
+padding:10px 10px 10px 10px;
+margin-right: 30em;
+background: #ffffff; 
+color: #837a04; 
+font-family: Arial;
+border: solid #070707 5px;
+}
+
+
