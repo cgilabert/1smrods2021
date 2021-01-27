@@ -1,0 +1,104 @@
+*{
+    padding: 5px;
+    margin: 3px;
+}
+
+
+body{
+    background-color:#f36c1c;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+
+h1{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    height: 20px;
+    text-shadow: 2px 2px rgb(26, 26, 26);
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    height: 20px;
+    text-shadow: 2px 2px rgb(26, 26, 26);
+    text-align: center;
+}
+
+h3{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    height: 20px;
+    text-shadow: 2px 2px rgb(26, 26, 26);
+    text-align: center;
+}
+
+.imagenlogo{
+    display: block;
+    margin: auto;
+}
+
+.listaCat{
+    border:groove rgb(255, 33, 25) 10px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(197, 197, 197);
+    padding: 10px;
+    margin: 5px;
+    width: 8em;
+    list-style: none;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.h1cat{
+    color:  rgb(255, 255, 255);
+    height: 50px;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    text-align: center;
+    font-size: xx-large;
+}
+
+li a:hover{
+    background: rgb(247, 60, 60);
+}
+
+li a:active{
+    background:rgb(255, 153, 0);
+}
+
+li a:checked{
+    background: rgb(255, 255, 255);
+}
+
+li a{
+    padding: 0.2em  0.2em 0.2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 245, 108);
+    text-decoration: solid;
+    border: solid;
+}
+
+.textoalineado{
+    text-align: center;
+}
+
+#lista1 li {
+    display:inline;
+    padding-left:2px;
+    padding-right:2px;
+    background-color:black;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+video{
+    margin: auto;
+    display: block;
+}
+  
