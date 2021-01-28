@@ -16,10 +16,48 @@ body{
     
 }
 img{
-    margin: 20px;
+    margin: 30px;
     
 }
 ul{
     align="right"
     margin: 20px;
+}
+ul {
+    padding: 5px;
+    margin: 0;
+    width: 160px;
+    list-style: none;
+    background: #ffaf01;	
+    position:static;
+    left:20px;
+    top:100px;		
+}
+
+li a {
+  padding: .2em 0 .2em 1.5em;
+  display: block;
+  text-decoration: none;
+  background: #00ffff;
+}
+
+li {
+}
+
+
+li a:hover, li a:active {
+    background: #003246;
+}
+
+li a:visited {
+    color:rgb(0, 0, 0);  
+}
+iframe {
+    position: static;
+    max-width:1000px;
+    
+}
+
+td{
+    background:#00ffff ;
 }
