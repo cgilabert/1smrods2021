@@ -20,6 +20,11 @@ h2{
     margin-bottom: 4px;
 }
 
+h3{
+    text-shadow: 2px 2px rgb(50, 50, 50);
+    margin-bottom: 4px; 
+}
+
 ol{
     margin: 2px 0px 2px 0px;
 }
@@ -87,4 +92,9 @@ table{
     right: 4px;
     top: 4px;
     color: black;
+}
+
+.video{
+    display: block;
+    margin: auto;
 }
