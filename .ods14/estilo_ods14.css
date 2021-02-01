@@ -77,49 +77,49 @@ td.verdeclaro {
 /*BORDES DE PECES*/
 p {
     border: 50px solid;
-    border-image-source: url("/imagenes_ods14/pezrojo.png");
+    border-image-source: url("imagenes_ods14/pezrojo.png");
     border-image-width: 50px 65px;
     text-align: center;
 }
 
 p.borde-pezamarillo {
-    border-image-source: url("/imagenes_ods14/pezazul.png");
+    border-image-source: url("imagenes_ods14/pezazul.png");
     border-image-width: 70px 70px;
     text-align: center;
 }
 
 p.borde-pezgris {
-    border-image-source: url("/imagenes_ods14/pezgris.png");
+    border-image-source: url("imagenes_ods14/pezgris.png");
     border-image-width: 50px 60px;
     text-align: center;
 }
 
 p.borde-pezverde {
-    border-image-source: url("/imagenes_ods14/pezverde.png");
+    border-image-source: url("imagenes_ods14/pezverde.png");
     border-image-width: 50px 60px;
     text-align: center;
 }
 
 p.borde-peznaranja {
-    border-image-source: url("/imagenes_ods14/peznaranja.png");
+    border-image-source: url("imagenes_ods14/peznaranja.png");
     border-image-width: 50px 60px;
     text-align: center;
 }
 
 p.borde-pezmorado {
-    border-image-source: url("/imagenes_ods14/pezmorado.png");
+    border-image-source: url("imagenes_ods14/pezmorado.png");
     border-image-width: 60px 60px;
     text-align: center;
 }
 
 p.borde-pezmarron {
-    border-image-source: url("/imagenes_ods14/pezmarron.png");
+    border-image-source: url("imagenes_ods14/pezmarron.png");
     border-image-width: 50px 60px;
     text-align: center;
 }
 
 p.borde-pezleopardo {
-    border-image-source: url("/imagenes_ods14/pezleopardo.png");
+    border-image-source: url("imagenes_ods14/pezleopardo.png");
     border-image-width: 70px 70px;
     text-align: center;
 }
@@ -151,7 +151,7 @@ p.borde-pezleopardo {
     display: block;
     margin: auto;
     border: silver 27px solid;
-      border-image-source: url("/imagenes_ods14/pastilla-60.png");
+      border-image-source: url("imagenes_ods14/pastilla-60.png");
       border-image-slice: 27;
       padding: 10px;
 }
