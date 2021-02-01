@@ -1,0 +1,100 @@
+*{
+    background-color: rgb(193, 31, 51);
+    color: rgb(220, 220, 220);
+    margin-left: 5px;
+}
+
+.portada{
+    margin: auto;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 3px 1px  rgb(50, 50, 50);
+    margin-bottom: 2px;
+}
+
+h2{
+    text-shadow: 2px 2px rgb(50, 50, 50);
+    margin-bottom: 4px;
+}
+
+h3{
+    text-shadow: 2px 2px rgb(50, 50, 50);
+    margin-bottom: 4px; 
+}
+
+ol{
+    margin: 2px 0px 2px 0px;
+}
+
+li {
+    margin-left: 0px;
+}
+
+ul{
+    margin: 2px 0px 2px 0px;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+      background: rgb(182, 58, 0);
+      color: white;
+      text-align: center;
+}
+
+li a:hover, li a:active {
+    background: #168383;
+}
+
+.listaCat{
+    border:ridge rgb(150, 31, 51) 10px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(182, 58, 0);
+    padding: 10px;
+    margin: 5px;
+    width: 8em;
+    list-style: none;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.títulolista{
+    font-weight: bold;
+     font-size: large;
+     text-align: center;
+}
+
+table{
+    left: 4px;
+    top: 4px;
+    border: ridge rgb(143, 31, 51) 5px;
+    color: wheat;
+    display: block;
+    position: absolute;
+}
+
+#inicio {
+    font-weight: bold; 
+    font-size: large;
+    text-align: center;
+    background: rgb(143, 50, 50); 
+    border: ridge #3f0000 3px;
+    padding: 5px 5px 5px 5px;
+    position: fixed;
+    right: 4px;
+    top: 4px;
+    color: black;
+}
+
+.video{
+    display: block;
+    margin: auto;
+}
