@@ -1,0 +1,224 @@
+/*COL0R FONDOS*/
+body {
+    background-color:#abccf7;
+}
+
+.header {
+    background-color:#abccf7;
+    margin: 5px;
+	padding: 5px;
+}
+
+.main {
+    background-color:#abccf7 ;
+    margin: 5px;
+	padding: 5px;
+}
+
+.footer {
+    background-color:#abccf7;
+    margin: 5px;
+    padding: 5px;
+    border-style: inherit;
+}
+
+/*TITULOS*/
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    font-size: 30px;
+    color:#1962c2; 
+    text-shadow: 0 1px 0 #abccf7, 0 2px 0 #abccf7, 0 3px 0 #abccf7, 0 4px 0 #abccf7, 0 5px 0 #abccf7, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    border-style:double;
+    border-color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: #0400db;
+    text-align: center;
+    border:rgb(255, 255, 255);
+    border-style:double;
+}
+
+h4 {
+    color: rgb(255, 60, 1);
+    border:rgb(255, 255, 255);
+    border-style:double;
+    text-align: center;
+}
+
+/*LOGO DE LA PAGINA*/
+table.logo {
+    background-color:#1962c2;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    width: 50%;
+}
+
+/*LOGOS FOOTER*/
+table.footer {
+    background-color:(255,81,0);
+    width: 50%;
+    margin: auto;
+    padding: 0;
+}
+
+td.verde {
+    background-color:#3a793b;
+    width: 3%;
+}
+td.verdeclaro {
+    background-color:#5cbc44 ;
+    width: 3%;
+}
+
+/*BORDES DE PECES*/
+p {
+    border: 50px solid;
+    border-image-source: url("imagenes_ods14/pezrojo.png");
+    border-image-width: 50px 65px;
+    text-align: center;
+}
+
+p.borde-pezamarillo {
+    border-image-source: url("imagenes_ods14/pezazul.png");
+    border-image-width: 70px 70px;
+    text-align: center;
+}
+
+p.borde-pezgris {
+    border-image-source: url("imagenes_ods14/pezgris.png");
+    border-image-width: 50px 60px;
+    text-align: center;
+}
+
+p.borde-pezverde {
+    border-image-source: url("imagenes_ods14/pezverde.png");
+    border-image-width: 50px 60px;
+    text-align: center;
+}
+
+p.borde-peznaranja {
+    border-image-source: url("imagenes_ods14/peznaranja.png");
+    border-image-width: 50px 60px;
+    text-align: center;
+}
+
+p.borde-pezmorado {
+    border-image-source: url("imagenes_ods14/pezmorado.png");
+    border-image-width: 60px 60px;
+    text-align: center;
+}
+
+p.borde-pezmarron {
+    border-image-source: url("imagenes_ods14/pezmarron.png");
+    border-image-width: 50px 60px;
+    text-align: center;
+}
+
+p.borde-pezleopardo {
+    border-image-source: url("imagenes_ods14/pezleopardo.png");
+    border-image-width: 70px 70px;
+    text-align: center;
+}
+
+/*PALABRAS DE COLORES*/
+.palabraEspecial{
+    color:rgb(39, 9, 206);
+    font-weight: bold;
+}
+
+.palabraEspecial2{
+    color:rgb(255, 166, 0);
+    font-weight: bold;
+}
+
+.palabraEspecial3{
+    color: rgb(217, 255, 0);
+    font-weight: bold;
+}
+
+/*IMAGEN CENTRADA*/
+.imagenCentrada {
+    display: block;
+    margin: auto;
+}
+
+/*FOTO BALLENA*/
+.ballena {
+    display: block;
+    margin: auto;
+    border: silver 27px solid;
+      border-image-source: url("imagenes_ods14/pastilla-60.png");
+      border-image-slice: 27;
+      padding: 10px;
+}
+
+/*MENU*/
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #1962c2;
+    width: 90%;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a :hover {
+    background: #d17f04;
+}
+
+/*TABLA ZONAS MUERTAS*/
+table {
+    width: 100%;
+    border: 1px solid #000;
+    background: rgb(149, 224, 229) url("gradient.gif") bottom left repeat-x;
+    color: rgb(9, 0, 94);
+}
+
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+}
+
+/*GALERÍA*/
+.margaleria {
+    list-style-type: none;
+    margin: 0 0 25px 10px; /* Eliminacion de viñeta en IE6 */
+    padding: 0px; /* Eliminacion de viñeta en IE6 */
+    float:left;
+}
+
+li .pequeña {
+    width: 75px;
+    height: 64px;
+    padding: 6px 20px 20px 7px;
+}
+
+li .grande {
+    visibility: hidden;
+    position: absolute;
+    top: 456px; /* Provoca la separacion del borde superior */
+    left: 496px; /* Separa la imagen grande de la pequeña */
+}
+
+a:hover .grande {
+    visibility: visible;
+}
