@@ -1,0 +1,29 @@
+body{
+    background-color:#8ebfd6;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+img{
+
+    display: block;
+    margin: auto;
+
+}
+h1{
+
+    text-align: center;
+    color: rgb(47, 67, 122);
+    height: 20px;
+    text-shadow: 2px 2px rgb(26, 26, 26);
+    text-align: center;
+}
+
+h3{
+
+    text-align: center;
+    color: rgb(44, 72, 231);
+    height: 20px;
+    text-shadow: 1px 1  px rgb(26, 26, 26);
+    text-align: center;
+}
+
