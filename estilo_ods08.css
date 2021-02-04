@@ -28,7 +28,7 @@ ul {
     margin: 0;
     width: 160px;
     list-style: none;
-    background: #ffa601;	
+    background: #ffaf01;	
     position:static;
     left:20px;
     top:100px;		
@@ -42,7 +42,6 @@ li a {
 }
 
 li {
-    border-top: 2px solid #ffa601;
 }
 
 
@@ -57,4 +56,8 @@ iframe {
     position: static;
     max-width:1000px;
     
+}
+
+td{
+    background:#00ffff ;
 }
