@@ -6,11 +6,16 @@
     <title>Document</title>
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="estilo_ods14.css" media="screen" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
 </head>
 <body>
 <!--HEADER-->
 <header class="header">
+
+
 
     <!--LOGO PRINCIPAL-->
     <table class="logo">
@@ -26,9 +31,9 @@
     <!--MENÚ-->
     <ul class="menu">
         <li><a href="ods14.html"><I>Inicio</a></li>
-        <li><a href="metas.html"><I>Metas hacia 2030</a></li>
-        <li><a href="efectos.html"><I>Efectos en los animales marinos</a></li>
-        <li><a href="zonasmuertas.html"><I>Zonas muertas</a></li>
+        <li><a href=".ods14/metas.html"><I>Metas hacia 2030</a></li>
+        <li><a href=".ods14/efectos.html"><I>Efectos en los animales marinos</a></li>
+        <li><a href=".zonasmuertas.html"><I>Zonas muertas</a></li>
         <li><a href="enlaces.html"><I>Enlaces</a></li>
         <li><a href="galeria.html"><span class=palabraEspecial2>Galería</span></a></li>
         <li><a href="DonarPaso1.html"><span class=palabraEspecial2>Donar</span></a></li>
@@ -39,18 +44,20 @@
 
 <!--MAIN-->
 <main class="main">
-    
+   
     <!--NOMBRE APARTADO-->
     <h2>INICIO</h2>
 
     <!--MAR SUCIO Y LIMPIO JAVASCRIPT-->
     <img id="marsucio" class="imagenCentrada" src="imagenes_ods14/marsucio.png" style="width:400px">
     <br>
-    <button onclick="document.getElementById('marsucio').src='imagenes_ods14/marlimpio.png'" class="imagenCentrada">Ver el mar limpio</button>
-    
-    <button onclick="document.getElementById('marsucio').src='imagenes_ods14/marsucio.png'" class="imagenCentrada">Ver el mar sucio</button>
+    <div class="text-center">
+    <button onclick="document.getElementById('marsucio').src='imagenes_ods14/marlimpio.png'" type="button" class="btn btn-success" >Ver el mar limpio</button>
+    </div>
+    <div class="text-center">
+    <button onclick="document.getElementById('marsucio').src='imagenes_ods14/marsucio.png'" type="button" class="btn btn-danger" >Ver el mar sucio</button>
     <br>
-
+    </div>
     <!--SUBAPARTADO 1-->
     <h4>SITUACIÓN ACTUAL DEL OCÉANO</h4>
 
