@@ -12,44 +12,39 @@
 
 </head>
 <body>
-<!--HEADER-->
-<header class="header">
+<!--Header-->
+<header>
+    <div class="contenedor">
+        <h2 class="tituloprincipal">VIDA SUBMARINA</h2>
+        <nav>
+            <a href="#" class="activo">Inicio</a>
+            <a href=".ods14/metas.html">Metas hacia 2030</a>
+            <a href=".ods14/efectos.html">Causas en los animales marinos</a>
+            <a href=".ods14/zonasmuertas.html">Zonas muertas</a>
+            <a href=".ods14/galeria.html">Galeria</a>
+            <a href=".ods14/DonarPaso1.html">Donar</a>
+        </nav>
+    </div>
 
-
-
-    <!--LOGO PRINCIPAL-->
-    <table class="logo">
-        <tbody>
-        <tr>
-        <td>
-        <img src="imagenes_ods14/logopez.png" class="imagenCentrada" alt="ods14" width="32%">
-        </td>
-        </tr>
-        </tbody>
-    </table>
-
-    <!--MENÚ-->
-    <ul class="menu">
-        <li><a href="ods14.html"><I>Inicio</a></li>
-        <li><a href=".ods14/metas.html"><I>Metas hacia 2030</a></li>
-        <li><a href=".ods14/efectos.html"><I>Efectos en los animales marinos</a></li>
-        <li><a href=".zonasmuertas.html"><I>Zonas muertas</a></li>
-        <li><a href="enlaces.html"><I>Enlaces</a></li>
-        <li><a href="galeria.html"><span class=palabraEspecial2>Galería</span></a></li>
-        <li><a href="DonarPaso1.html"><span class=palabraEspecial2>Donar</span></a></li>
-        <li><a href="redessociales.html"><span class=palabraEspecial2>Redes Sociales</span></a></li>
-        <li><a href="http://los17ods.org/"target="_blank"><span class=palabraEspecial2>ODS</span></a></li>
-    </ul>
 </header>
 
-<!--MAIN-->
+    <div class="imagen-principal">
+        <div class="contenedor">
+            <h3 class="titulo">Salvar el océano</h3>
+            <p class="descripcion">
+                Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar.
+            </p>
+            <button role="button"  class="boton"><i class="fas fa-play"></i><a href="https://www.youtube.com/watch?v=b8cfWYPd5iI"></a>Reproducir</button>
+            <button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+        </div>
+    </div> 
 <main class="main">
-   
+
     <!--NOMBRE APARTADO-->
-    <h2>INICIO</h2>
+    <h2 class="subtitulo">INICIO</h2>
 
     <!--MAR SUCIO Y LIMPIO JAVASCRIPT-->
-    <img id="marsucio" class="imagenCentrada" src="imagenes_ods14/marsucio.png" style="width:400px">
+    <img id="marsucio" class="ballena" src="imagenes_ods14/marsucio.png" style="width:400px">
     <br>
     <div class="text-center">
     <button onclick="document.getElementById('marsucio').src='imagenes_ods14/marlimpio.png'" type="button" class="btn btn-success" >Ver el mar limpio</button>
@@ -58,8 +53,10 @@
     <button onclick="document.getElementById('marsucio').src='imagenes_ods14/marsucio.png'" type="button" class="btn btn-danger" >Ver el mar sucio</button>
     <br>
     </div>
+    <br>
+
     <!--SUBAPARTADO 1-->
-    <h4>SITUACIÓN ACTUAL DEL OCÉANO</h4>
+    <h4 class="subtitulo2">SITUACIÓN ACTUAL DEL OCÉANO</h4>
 
         <!--TEXTO PEZ ROJO-->
         <p>El <span class=palabraEspecial>océano</span> impulsa los sistemas mundiales que hacen de la Tierra un lugar habitable para el ser humano. Nuestra <span class=palabraEspecial>lluvia</span>, el <span class=palabraEspecial>agua potable</span>, el <span class=palabraEspecial>tiempo</span>, el <span class=palabraEspecial>clima</span>, los <span class=palabraEspecial>litorales</span>, gran parte de <span class=palabraEspecial>nuestra comida</span> e incluso el <span class=palabraEspecial>oxígeno del aire</span> que respiramos los proporciona y regula el <span class=palabraEspecial>mar</span>.
@@ -71,7 +68,7 @@
         <span class=palabraEspecial>Proteger</span> nuestros <span class=palabraEspecial>océanos</span> debe seguir siendo una prioridad. La biodiversidad marina es vital para la salud de las personas y de nuestro planeta. Las áreas marinas protegidas se deben gestionar de manera efectiva, al igual que sus recursos, y se deben poner en marcha <span class=palabraEspecial>reglamentos</span> que reduzcan la <span class=palabraEspecial>sobrepesca</span>, la <span class=palabraEspecial>contaminación marina</span> y la <span class=palabraEspecial>acidificación de los océanos</span>.</p>
     
     <!--SUBAPARTADO 2-->
-    <h4>CONTAMINANTES QUE AFECTAN AL OCÉANO</h4>
+    <h4 class="subtitulo2">CONTAMINANTES QUE AFECTAN AL OCÉANO</h4>
     
         <!--TEXTO PEZ GRIS-->
         <p class="borde-pezgris">Los <span class=palabraEspecial>contaminantes</span>contaminantes que más afectan al mar son los <span class=palabraEspecial>metales pesados</span>, como el <span class=palabraEspecial>plomo</span> o el <span class=palabraEspecial>mercurio</span>, y <span class=palabraEspecial>compuestos orgánicos sintéticos</span> como <span class=palabraEspecial>plaguicicidas clorados</span>, retardantes a la llama y <span class=palabraEspecial>bifenilos policlorados</span> (PCB), pero también algunos de los elementos fundamentales de la vida como los compuestos del <span class=palabraEspecial>nitrógeno</span> y del <span class=palabraEspecial>fósforo</span>.
@@ -80,7 +77,7 @@
         Esos <span class=palabraEspecial>contaminantes</span> pueden introducirse en nuestros océanos mediante <span class=palabraEspecial>vertidos directos</span>, <span class=palabraEspecial>ilícitos de desechos industriales</span> o mediante <span class=palabraEspecial>procesos naturales</span> más difíciles de controlar, por ejemplo, viento, lluvia y ríos contaminados.</p>
  
     <!--SUBAPARTADO 3-->
-    <h4>OBJETIVOS PARA SALVAR EL OCÉANO</h4>
+    <h4 class="subtitulo2">OBJETIVOS PARA SALVAR EL OCÉANO</h4>
 
         <!--TEXTO PEZ AZUL-->
         <p class="borde-pezamarillo">El objetivo es <span class=palabraEspecial>conservar y utilizar </span> en forma <span class=palabraEspecial>sostenible</span> los océanos, los mares y los <span class=palabraEspecial>recursos marinos</span> para el desarrollo sostenible, para ello se deberan seguir 3 pautas:
@@ -95,12 +92,6 @@
         - Mejorar la <span class=palabraEspecial>conservación y el uso sostenible</span> de los océanos y sus recursos aplicando el derecho internacional reflejado en la Convención de las Naciones Unidas sobre el Derecho del Mar, que proporciona el marco jurídico para la conservación y la utilización sostenible de los océanos y sus recursos, como se recuerda en el párrafo 158  del documento “El futuro que queremos”</p>
 
 </main>
-
-    <!--MAS INFRMACIÓN JAVASCRIPT-->
-    <p id="masinformacion" style="display:none">sfdfsdfsfsdfsdfsdfsdffsdfsfsfsf</p>
-
-    <button type="button" onclick="document.getElementById('masinformacion').style.display='block'">Más información</button>
-
 <!--FOOTER-->
 <footer class="footer">
         
@@ -124,5 +115,7 @@
         </tbody>
         </table>
 </footer>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
